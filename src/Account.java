@@ -16,6 +16,7 @@ public class Account {
     Validation vd = new Validation();
 
     public void openAccount() {
+        Scanner sc=new Scanner(System.in);
         System.out.print("Enter Full Name: ");
         String userName = sc.nextLine();
         System.out.print("Enter Father's Name: ");
